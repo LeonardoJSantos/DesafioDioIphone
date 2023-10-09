@@ -6,8 +6,16 @@ public class Main {
         TelefoneCelular celular = new TelefoneCelular();
 
         // Exemplo de uso das funcionalidades
-        celular.tocar();
+        celular.ligar();
+        celular.atender();
         celular.iniciarCorreioDeVoz();
+
+        celular.tocar();
+        celular.pausar();
+        celular.selecionarMusica();
+
         celular.exibirPagina();
+        celular.adicionarNovaAba();
+        celular.atualizarPagina();
     }
 }

@@ -1,4 +1,4 @@
-class TelefoneCelular implements ReprodutorMusical, AparelhoTelefonico, NavegadorfInternet.NavegadorInternet {
+class TelefoneCelular implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet.Navegador {
 
     @Override
     public void tocar() {
